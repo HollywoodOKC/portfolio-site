@@ -1,2 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Alkalami, serif;
+  font-size: 16px;
+}
+nav {
+  background: hsl(0, 0%, 13.3%);
+  padding: 0 15px;
+}
+a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+.menu, .submenu {
+  list-style-type: none;
+}
+.logo {
+  font-size: 20px;
+  padding: 7.5px 10px 7.5px 0;
+}
+.item {
+  padding: 10px;
+}
+.item button {
+  padding: 9px 5px;
+}
+.item:not(.button) a:hover, .item a:hover::after {
+  color: hsl(0, 0%, 80%);
+}
