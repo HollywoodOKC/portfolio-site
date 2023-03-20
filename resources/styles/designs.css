@@ -53,19 +53,19 @@ body {
   width: 55%;
   height: auto;
   border: 20px solid black;
-  padding: 40px;
+  padding: 50px;
   background-color: white;
   margin-top: 20px;
 }
 
 .picture {
+  position: block;
   width: 100%;
   height: auto;
   display: block;
   margin-right: auto;
   margin-right: auto;
 }
-
 
 /* v Bottom of Page v*/
 #footer {
