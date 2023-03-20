@@ -4,11 +4,34 @@
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: #35A7FF;
+  background-color: hsl(206.1, 100%, 60.4%);
 }
 
-header {
-  background-color: #38618C;
-  padding-top: 1px;
+.topnav {
+  overflow: hidden;
+  background-color: hsl(210.7, 42.9%, 38.4%);
+  font-family: 'Alkalami', cursive;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
 }
