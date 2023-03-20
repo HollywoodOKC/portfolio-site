@@ -40,6 +40,28 @@ body {
 
 /*^ Top of page ^*/
 
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.frame {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border: 10px solid black;
+  padding: 35px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.picture {
+  width: 100%;
+  height: auto;
+}
 
 
 /* v Bottom of Page v*/
