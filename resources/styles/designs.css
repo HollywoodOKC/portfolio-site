@@ -46,10 +46,6 @@ body {
   float: right;
 }
 
-.topnav .icon {
-  display: none;
-}
-
 #time_box {
   display: block;
   margin-left: auto;
