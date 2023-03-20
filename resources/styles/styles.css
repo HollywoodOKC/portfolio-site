@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
 
 body {
   margin: 0;
   background-color: hsl(206.1, 100%, 60.4%);
 }
 
+#name {
+  font-family: 'Nabla', cursive;
+}
+
 .topnav {
   overflow: hidden;
   background-color: hsl(210.7, 42.9%, 38.4%);
-  font-family: 'Alkalami', cursive;
+  font-family: 'Kanit', cursive;
 }
 
 .topnav a {
@@ -23,15 +29,29 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: hsl(356, 100%, 67.5%);
   color: black;
-}
-
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
 }
 
 .topnav-right {
   float: right;
+}
+
+/*^ Top of page ^*/
+
+
+
+/* v Bottom of Page v*/
+#footer {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 75%;
+  color: hsl(0, 0%, 0%);
+  font-size: 1em;
+  font-family: 'Open Sans', cursive;
+  border: 3px solid hsl(210.7, 42.9%, 38.4%);
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 100%);
 }
