@@ -31,6 +31,7 @@ body {
 .topnav a:hover {
   background-color: hsl(356, 100%, 67.5%);
   color: black;
+  border-radius: 7px;
 }
 
 .topnav-right {
