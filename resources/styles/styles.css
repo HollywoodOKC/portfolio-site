@@ -44,7 +44,6 @@ body {
 .topnav-right {
   float: right;
 }
-/*^ Top of page ^*/
 
 #time_box {
   display: block;
@@ -64,6 +63,9 @@ body {
   font-family: 'Digital-7';
   font-size: 30px;
 }
+/*^ Top of page ^*/
+
+
 
 /* v Bottom of Page v*/
 #footer {
@@ -78,5 +80,5 @@ body {
   border: 3px solid hsl(210.7, 42.9%, 38.4%);
   border-radius: 7px;
   background-color: hsl(0, 0%, 0%);
-  color:aliceblue;
+  color: aliceblue;
 }
