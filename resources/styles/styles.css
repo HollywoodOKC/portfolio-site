@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 
 @font-face {
-  font-family: 'Digital-7';
+  font-family: "Digital-7";
   src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/digital-7.ttf");
   font-weight: normal;
   font-style: normal;
@@ -16,13 +16,13 @@ body {
 }
 
 #name {
-  font-family: 'Nabla', cursive;
+  font-family: "Nabla", cursive;
 }
 
 .topnav {
   overflow: hidden;
   background-color: hsl(210.7, 42.9%, 38.4%);
-  font-family: 'Kanit', cursive;
+  font-family: "Kanit", cursive;
 }
 
 .topnav a {
@@ -51,7 +51,37 @@ body {
 
 /*^ Top of page ^*/
 
+#title {
+  display: block;
+  color: white;
+  font-size: 1.5rem;
+  width: 300px;
+  height: auto;
+}
 
+.glitch {
+  font-size: 2rem;
+}
+
+#designer {
+  font-size: 2rem;
+  color: transparent;
+  background: conic-gradient(
+    #f72f35 12%,
+    #30c5ff 12%,
+    #30c5ff 35%,
+    #ffd700 35%,
+    #ffd700 55%,
+    #ff69b4 55%,
+    #ff69b4 70%,
+    #d1e231 70%,
+    #d1e231 90%,
+    #d09ee1 90%
+  );
+  background-size: 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
 
 /*v Bottom of Page v*/
 #footer {
@@ -61,7 +91,7 @@ body {
   text-align: center;
   width: 75%;
   font-size: 1rem;
-  font-family: 'Nabla', sans-serif;
+  font-family: "Nabla", sans-serif;
   border: 3px solid hsl(210.7, 42.9%, 38.4%);
   border-radius: 7px;
   background-color: hsl(0, 0%, 0%);
