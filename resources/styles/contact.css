@@ -158,7 +158,8 @@ img {
   #text {
     text-align: center;
   }
-  .button {
-    margin-left: 60px;
+  #buttons {
+    display: block;
+    text-align: center;
   }
 }
