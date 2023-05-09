@@ -53,27 +53,35 @@ body {
 /*^ Top of page ^*/
 
 #main {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #title {
-  display: block;
+  display: flex;
+  justify-content: flex-start;
   color: white;
   font-size: 2.5rem;
-  width: 400px;
+  width: 600px;
   height: auto;
   font-family: 'Kanit', sans-serif;
 }
 
 .glitch {
   font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: auto;
 }
 
 #designer {
+  display: flex;
+  justify-content: flex-end;
   font-size: 3rem;
+  width: 600px;
+  height: auto;
   font-family: 'Sigmar', cursive;
   color: transparent;
   background: conic-gradient(
@@ -88,10 +96,9 @@ body {
     #d1e231 90%,
     #d09ee1 90%
   );
-  background-size: 50%;
+  background-size: 25%;
   background-clip: text;
   -webkit-background-clip: text;
-  padding-left: 500px;
 }
 
 /*v Bottom of Page v*/
@@ -142,5 +149,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title, .glitch, #designer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
