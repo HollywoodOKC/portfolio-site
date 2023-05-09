@@ -83,10 +83,21 @@ img {
   text-align: center;
 }
 
+#button1 {
+  margin-right: 5px;
+}
+
+#button2 {
+  margin-left: 5px;
+}
+
 .button {
   font-family: 'Kanit', cursive;
+  padding: 5px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 7px;
+  border: none;
+  text-decoration: none;
 }
 
 /*v Bottom of Page v*/
