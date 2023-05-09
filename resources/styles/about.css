@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
 
 @font-face {
   font-family: 'Digital-7';
@@ -52,7 +54,30 @@ body {
 
 /*^ Top of page ^*/
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
 
+#info {
+  display: block;
+  text-align: center;
+}
+
+#info > h2 {
+  font-family: 'Nabla', sans-serif;
+  font-size: 2rem;
+}
+
+#info > p {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+
+}
 
 /* v Bottom of Page v*/
 #footer {
