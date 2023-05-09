@@ -65,12 +65,16 @@ body {
   border-radius: 7px;
 }
 
+#picture {
+  text-align: left;
+  width: 52%;
+}
+
 img {
   display: block;
-  max-width: 100%;
   width: 100%;
   height: auto;
-  text-align: center;
+  left: -10px;
 }
 
 #text {
