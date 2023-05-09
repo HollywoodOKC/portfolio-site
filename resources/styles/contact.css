@@ -68,6 +68,7 @@ body {
 #picture {
   text-align: left;
   width: 52%;
+  height: auto;
 }
 
 img {
@@ -160,6 +161,10 @@ img {
 @media screen and (max-width: 600px) {
   #main {
     display: block;
+  }
+  #picture {
+    text-align: left;
+    width: 100%;
   }
   #text {
     text-align: center;
