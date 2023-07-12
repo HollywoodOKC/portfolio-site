@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "Blowbrush";
-  src: url(https://hollywoodokc.github.io/portfolio-site/resources/fonts/blowbrush.ttf);
+  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/blowbrush.ttf");
   font-weight: normal;
   font-style: normal;
 }
