@@ -11,6 +11,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Blowbrush";
+  src: url(https://hollywoodokc.github.io/portfolio-site/resources/fonts/blowbrush.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   background-color: hsl(206, 66%, 49%);
@@ -65,7 +72,7 @@ body {
   font-size: 2.5rem;
   width: 600px;
   height: auto;
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Blowbrush', sans-serif;
 }
 
 .glitch {
