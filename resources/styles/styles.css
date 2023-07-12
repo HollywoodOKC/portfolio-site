@@ -12,8 +12,8 @@
 }
 
 @font-face {
-  font-family: "Blowbrush";
-  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/blowbrush.ttf");
+  font-family: "Gwibble";
+  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/gwibble.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -72,7 +72,7 @@ body {
   font-size: 2.5rem;
   width: 600px;
   height: auto;
-  font-family: 'Blowbrush', sans-serif;
+  font-family: 'Gwibble', sans-serif;
 }
 
 .glitch {
