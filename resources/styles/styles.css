@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
 @font-face {
   font-family: "Digital-7";
@@ -72,7 +73,7 @@ body {
   font-size: 2.5rem;
   width: 600px;
   height: auto;
-  font-family: 'Gwibble', sans-serif;
+  font-family: 'Caprasimo', sans-serif;
 }
 
 .glitch {
