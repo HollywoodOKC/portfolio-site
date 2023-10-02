@@ -85,6 +85,7 @@ img {
   display: block;
   left: 0;
   right: 0;
+  margin-top: 20px;
   margin: 0 auto;
   text-align: center;
   width: 75%;
