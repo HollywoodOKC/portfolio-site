@@ -71,9 +71,12 @@ body {
   justify-content: center;
   color: hsl(0, 0%, 100%);
   font-size: 3rem;
-  width: 600px;
+  width: auto;
   height: auto;
   font-family: 'Caprasimo', sans-serif;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
 }
 
 .glitch {
