@@ -181,3 +181,10 @@ body {
     align-items: center;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #title {
+    text-align: center;
+    margin: auto;
+  }
+}
