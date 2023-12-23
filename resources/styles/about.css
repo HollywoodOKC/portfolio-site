@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
 
 @font-face {
-  font-family: 'Digital-7';
+  font-family: "Digital-7";
   src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/digital-7.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: Nabla;
+  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/Nabla-Regular-VariableFont_EDP.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
@@ -19,13 +24,13 @@ body {
 }
 
 #name {
-  font-family: 'Nabla', cursive;
+  font-family: "Nabla", cursive;
 }
 
 .topnav {
   overflow: hidden;
   background-color: hsl(210.7, 42.9%, 38.4%);
-  font-family: 'Kanit', cursive;
+  font-family: "Kanit", cursive;
 }
 
 .topnav a {
@@ -68,15 +73,14 @@ img {
 }
 
 #info > h2 {
-  font-family: 'Nabla', sans-serif;
+  font-family: "Nabla", sans-serif;
   font-size: 2rem;
 }
 
 #info > p {
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   font-size: 1.5rem;
   text-decoration: none;
-
 }
 
 /* v Bottom of Page v*/
@@ -91,7 +95,7 @@ img {
   width: 75%;
   color: hsl(0, 0%, 0%);
   font-size: 1em;
-  font-family: 'Nabla', sans-serif;
+  font-family: "Nabla", sans-serif;
   border: 3px solid hsl(210.7, 42.9%, 38.4%);
   border-radius: 7px;
   background-color: hsl(0, 0%, 0%);
