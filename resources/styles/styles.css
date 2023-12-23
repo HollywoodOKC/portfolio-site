@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
-@import url("https://fonts.googleapis.com/css2?family=Nabla&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
 
@@ -15,6 +14,13 @@
 @font-face {
   font-family: "Gwibble";
   src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/gwibble.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Nabla;
+  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/Nabla-Regular-VariableFont_EDP.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -128,6 +134,7 @@ body {
   border: 3px solid hsl(210.7, 42.9%, 38.4%);
   border-radius: 7px;
   background-color: hsl(0, 0%, 0%);
+  font-style: normal;
 }
 
 @media screen and (max-width: 600px) {
