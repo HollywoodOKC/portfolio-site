@@ -79,7 +79,7 @@ body {
   font-size: 3rem;
   width: auto;
   height: auto;
-  font-family: "Caprasimo", sans-serif;
+  font-family: Caprasimo, sans-serif;
   text-overflow: ellipsis;
   white-space: normal;
   overflow: hidden;
@@ -193,5 +193,11 @@ body {
 @media screen and (max-width: 600px) {
   #main {
     margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #footer {
+    width: 80%;
   }
 }
