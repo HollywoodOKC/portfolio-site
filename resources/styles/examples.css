@@ -82,6 +82,10 @@ body {
     height: auto;
 }
 
+#title1, #title2 {
+    font-size: 2rem;
+}
+
 #pic1, #pic2 {
     display: flex;
     flex-direction: column;
