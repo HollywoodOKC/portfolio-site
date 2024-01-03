@@ -68,6 +68,7 @@ body {
     border-radius: 30px;
     width: 75%;
     height: auto;
+    box-shadow: 1px 1px 5px #555 inset;
 }
 
 #neonLounge, #hotelCali {
