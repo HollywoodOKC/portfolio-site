@@ -1,6 +1,6 @@
 const button1 = document.getElementById('button1');
 const button2 = document.getElementById('button2');
-let year = document.getElementById('year');
+const year = document.getElementById('year');
 year.innerHTML = new Date().getFullYear();
 
 const changeBtn1 = () => {
