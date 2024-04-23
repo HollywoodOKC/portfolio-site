@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#35A7FF">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
   <link href="resources/styles/styles.css" type="text/css" rel="stylesheet">
   <link href="resources/common/time.css" type="text/css" rel="stylesheet">
-  <link href="resources/styles/glitch.css" type="text/css" rel="stylesheet">
   <meta property="og:title" content='T. Lane Portfolio'>
   <meta property="og:image" content="https://hollywoodokc.github.io/portfolio-site/resources/img/Lane.jpg">
   <meta property="og:image:alt" content="Last name design">
@@ -21,6 +21,7 @@
 </head>
 
 <body>
+  <img id="background" src="resources/common/1c2cd0ac44d79cdaec20b3312c02fe80.jpeg">
   <header>
     <div class="topnav" id="myTopNav">
       <a id="name">T. Lane</a>
@@ -38,13 +39,12 @@
   </header>
 
   <main>
-    <div id="time_box">
+    <div id="time_box" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border">
       <p id="time"></p>
     </div>
-    <br>
-    <div id="main">
+    <div id="main" data-augmented-ui="tl-2-round-inset tr-2-rect-y br-2-scoop-inset bl-clip border">
       <div id="opening">
-        <p id="title"> Hello, I'm Tyson Lane</p>
+        <p id="title"> Hello, I'm Tyson</p>
       </div>
       <div id="middle">
         <p class="glitch" data-text="Web Developer">Web Developer</p>
