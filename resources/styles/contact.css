@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
 
 @font-face {
-  font-family: "Digital-7";
-  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/digital-7.ttf");
-  font-weight: normal;
+  font-family: Cyberway;
+  src: url(../fonts/CyberwayRiders.ttf);
   font-style: normal;
 }
 
@@ -17,19 +15,40 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: VCR_OSD;
+  src: url(../fonts/VCR_OSD.ttf);
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  background-color: hsl(206, 66%, 49%);
+  padding: 0;
+  background-color: hsl(300, 11%, 11%);
+}
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
 }
 
 #name {
-  font-family: "Nabla", cursive;
+  font-family: Cyberway, cursive;
+  color: hsl(178, 100%, 53%);
+  font-size: 1.2rem;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: hsl(210.7, 42.9%, 38.4%);
-  font-family: "Kanit", cursive;
+  background-color: hsl(300, 11%, 11%);
+  font-family: VCR_OSD, cursive;
 }
 
 .topnav a {
@@ -43,7 +62,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: hsl(356, 100%, 67.5%);
+  background-color: hsl(317, 100%, 42%);
   color: black;
   border-radius: 7px;
 }
@@ -69,12 +88,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 7px;
+  background-color: hsl(300, 11%, 11%);
 }
 
 #picture {
   text-align: left;
   width: 52%;
-  height: auto;
+  height: 100%;
 }
 
 img {
@@ -85,7 +105,8 @@ img {
 }
 
 #text {
-  font-family: "Nabla", sans-serif;
+  font-family: Cyberway, sans-serif;
+  color: hsl(317, 100%, 42%);
   padding-left: 20px;
   font-size: 3.12rem;
   text-align: center;
@@ -106,7 +127,7 @@ img {
 }
 
 .button {
-  font-family: "Kanit", cursive;
+  font-family: VCR_OSD, cursive;
   padding: 5px 10px;
   background-color: hsl(0, 0%, 100%);
   border-radius: 7px;

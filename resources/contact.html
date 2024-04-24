@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="styles/contact.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
   <link href="common/time.css" type="text/css" rel="stylesheet">
   <meta property="og:title" content='T. Lane Portfolio'>
   <meta property="og:image" content="https://hollywoodokc.github.io/portfolio-site/resources/img/Lane.jpg">
@@ -19,9 +20,10 @@
 </head>
 
 <body>
+  <img id="background" src="./common/1c2cd0ac44d79cdaec20b3312c02fe80.jpeg">
   <header>
     <div class="topnav" id="myTopNav">
-      <a id="name">T. Lane</a>
+      <a id="name">Digital Lane</a>
       <div class="topnav-right">
         <a href="../index.html">Home</a>
         <a href="designs.html">Designs</a>
@@ -35,7 +37,7 @@
   </header>
 
   <main>
-    <div id="time_box">
+    <div id="time_box" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border">
       <p id="time"></p>
     </div>
     <br>
@@ -46,8 +48,10 @@
       <div id="content">
         <p id="text">Want to reach me?</p>
         <div id="buttons">
-          <a href="https://myportfoliochat.netlify.app/"><button id="button1" class="button" type="button">My Chat App</button></a>
-          <a href="mailto:tysonite.crypto@ud.me"><button id="button2" class="button" type="button">Email Me!</button></a>
+          <a href="https://myportfoliochat.netlify.app/"><button id="button1" class="button" type="button">My Chat
+              App</button></a>
+          <a href="mailto:tysonite.crypto@ud.me"><button id="button2" class="button" type="button">Email
+              Me!</button></a>
         </div>
       </div>
     </div>
@@ -56,7 +60,7 @@
 
   <footer>
     <div class="row">
-      <p id="footer">© Copyright 2022-<span id="year"></span> T.E. - All rights reserved || Designed By: T. Lane</p>
+      <p id="footer">© Copyright 2022-<span id="year"></span> Digital Lane - All rights reserved || Designed By: T. Lane</p>
     </div>
   </footer>
   <script type="text/javascript" src="scripts/index.js"></script>

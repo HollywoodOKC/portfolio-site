@@ -4,12 +4,12 @@ const year = document.getElementById('year');
 year.innerHTML = new Date().getFullYear();
 
 const changeBtn1 = () => {
-    button1.style.backgroundColor = 'hsl(356, 100%, 67.5%)';
+    button1.style.backgroundColor = 'hsl(317, 100%, 42%)';
     button1.style.color = 'hsl(0, 0%, 100%)';
 };
 
 const changeBtn2 = () => {
-    button2.style.backgroundColor = 'hsl(356, 100%, 67.5%)';
+    button2.style.backgroundColor = 'hsl(317, 100%, 42%)';
     button2.style.color = 'hsl(0, 0%, 100%)';
 };
 

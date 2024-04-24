@@ -17,6 +17,12 @@
 }
 
 @font-face {
+    font-family: Cyberway;
+    src: url(../fonts/CyberwayRiders.ttf);
+    font-style: normal;
+}
+
+@font-face {
     font-family: "Alien Encounter";
     src: url(../fonts/Alien-Encounters-Regular.ttf);
     font-style: normal;
@@ -40,7 +46,9 @@ body {
 }
 
 #name {
-    font-family: Nabla, cursive;
+    font-family: Cyberway, cursive;
+    color: hsl(178, 100%, 53%);
+    font-size: 1.2rem;
 }
 
 .topnav {

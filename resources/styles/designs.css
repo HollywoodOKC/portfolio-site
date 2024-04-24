@@ -15,6 +15,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: Cyberway;
+  src: url(../fonts/CyberwayRiders.ttf);
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -34,7 +40,9 @@ body {
 }
 
 #name {
-  font-family: "Nabla", cursive;
+  font-family: Cyberway, cursive;
+  color: hsl(178, 100%, 53%);
+  font-size: 1.2rem;
 }
 
 .topnav {

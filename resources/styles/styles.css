@@ -53,7 +53,9 @@ body {
 }
 
 #name {
-  font-family: Nabla, cursive;
+  font-family: Cyberway, cursive;
+  color: hsl(178, 100%, 53%);
+  font-size: 1.2rem;
 }
 
 .topnav {
