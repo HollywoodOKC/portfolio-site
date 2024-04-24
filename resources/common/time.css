@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Astropolis;
+  src: url(../fonts/AstropolisLaser.ttf) format("woff2");
+  font-style: normal;
+}
+
 #time_box {
   display: block;
   margin-left: auto;
