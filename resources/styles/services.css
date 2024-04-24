@@ -5,9 +5,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap");
 
 @font-face {
-  font-family: "Digital-7";
-  src: url("https://hollywoodokc.github.io/portfolio-site/resources/fonts/digital-7.ttf");
-  font-weight: normal;
+  font-family: Cyberway;
+  src: url(../fonts/CyberwayRiders.ttf);
   font-style: normal;
 }
 
@@ -18,19 +17,38 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: VCR_OSD;
+  src: url(../fonts/VCR_OSD.ttf);
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  background-color: hsl(206, 66%, 49%);
+  padding: 0;
+  background-color: hsl(300, 11%, 11%);
 }
 
 #name {
   font-family: "Nabla", cursive;
 }
 
+#background {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: hsl(210.7, 42.9%, 38.4%);
-  font-family: "Kanit", cursive;
+  background-color: hsl(300, 11%, 11%);
+  font-family: VCR_OSD, cursive;
 }
 
 .topnav a {
@@ -73,13 +91,15 @@ img {
 }
 
 #info > h2 {
-  font-family: "Nabla", sans-serif;
-  font-size: 2rem;
+  font-family: Cyberway, sans-serif;
+  font-size: 3rem;
+  color: hsl(60, 100%, 60%);
 }
 
 #info > p {
-  font-family: "Rajdhani", sans-serif;
+  font-family: VCR_OSD, sans-serif;
   font-size: 1.5rem;
+  color: hsl(317, 100%, 42%);
   text-decoration: none;
   margin-left: 10%;
   margin-right: 10%;

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="styles/services.css" type="text/css" rel="stylesheet">
   <link href="common/time.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
   <meta property="og:title" content='T. Lane Portfolio'>
   <meta property="og:image" content="https://hollywoodokc.github.io/portfolio-site/resources/img/Lane.jpg">
   <meta property="og:image:alt" content="Last name design">
@@ -19,6 +20,7 @@
 </head>
 
 <body>
+  <img id="background" src="./common/1c2cd0ac44d79cdaec20b3312c02fe80.jpeg">
   <header>
     <div class="topnav" id="myTopNav">
       <a id="name">T. Lane</a>
@@ -35,7 +37,7 @@
   </header>
 
   <main>
-    <div id="time_box">
+    <div id="time_box" data-augmented-ui="tl-clip tr-clip br-clip bl-clip border">
       <p id="time"></p>
     </div>
     <div id="main">
@@ -43,8 +45,8 @@
         <img src="img/Programming-rafiki.png" alt="Selfie of me">
       </div>
       <div id="info">
-        <h2>Web Development</h2>
-        <p>We can create a simple one page site or we can die deep into a multi-page setup. The design and layout
+        <h2 class="service">Web Development</h2>
+        <p class="servicePara">We can create a simple one page site or we can die deep into a multi-page setup. The design and layout
           is of course your choice, we are just here to make it possible. Have an idea for a React app? Let me help
           bring MERN to bear and create a functional yet beautiful application.
         </p>
